@@ -1,0 +1,1 @@
+<?phpclass Web extends MY_Controller{  protected $data = array();	public function __construct()	{		parent::__construct();		$this->load->helper('language');		$this->load->helper('cookie');	}	public function index()	{		try{      $this->render('web/web',  $this->data);    }catch (Exception $exception){      echo $exception->getMessage();exit();    }	}	}
