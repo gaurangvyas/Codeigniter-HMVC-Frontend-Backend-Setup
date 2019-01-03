@@ -1,3 +1,10 @@
+Credentials Details :
+Demo Link Admin :http://localhost/hmvc/admin
+Username:superadmin@gmail.com
+Password:123456
+
+Demo Link Frontend :http://localhost/hmvc
+
 ###################
 What is CodeIgniter
 ###################
